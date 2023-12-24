@@ -48,13 +48,13 @@
   color: var(--primaryBackground);
 }
 
-.head span {
+.head-1 span {
   background-color: var(--primaryBackground);
   font-family: var(--headFont);
   transition: all 1s;
 }
 
-.head:hover span {
+.head-1:hover span {
   color: #f8f7f4;
   background-color: #161a30;
   border-radius: 20px;
