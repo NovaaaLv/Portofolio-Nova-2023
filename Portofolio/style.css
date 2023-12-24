@@ -16,6 +16,10 @@
   --globalColor: var(--bodyBackground);
 }
 
+.pb-30px {
+  padding-bottom: 30px;
+}
+
 .bg-1 {
   background-color: var(--primaryBackground);
   color: var(--secondaryColor);
@@ -23,11 +27,38 @@
   padding-top: 20px;
 }
 
-.head {
+.bg-2 {
+  background-color: var(--secondaryBackground);
+  color: var(--globalColor);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.head-1 {
   display: flex;
   justify-content: center;
   font-size: 25px;
+  color: var(--globalColor);
+}
+
+.head-2 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: var(--primaryBackground);
+}
+
+.head span {
+  background-color: var(--primaryBackground);
   font-family: var(--headFont);
+  transition: all 1s;
+}
+
+.head:hover span {
+  color: #f8f7f4;
+  background-color: #161a30;
+  border-radius: 20px;
+  padding: 0px 200px;
 }
 
 * {
@@ -72,6 +103,9 @@ nav {
 
 /* Section About */
 
+.head-shadow {
+  text-shadow: 0px 0px 14px #161a30;
+}
 .about {
   height: auto;
   display: flex;
@@ -94,4 +128,29 @@ nav {
 }
 .desk-about {
   font-size: 18px;
+}
+
+/*  */
+
+.wrap1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrap2 img {
+  width: 200px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.wrap3 img {
+  width: 150px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.wrap0 {
+  display: flex;
+  justify-content: center;
 }
