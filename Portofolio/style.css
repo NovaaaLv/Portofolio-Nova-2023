@@ -132,6 +132,12 @@ nav {
 
 /*  */
 
+.skill {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .wrap1 {
   display: flex;
   justify-content: center;
@@ -140,12 +146,12 @@ nav {
 }
 
 .wrap2 img {
-  width: 200px;
+  width: 160px;
   aspect-ratio: 3/2;
   object-fit: contain;
 }
 .wrap3 img {
-  width: 150px;
+  width: 110px;
   aspect-ratio: 3/2;
   object-fit: contain;
 }
@@ -153,4 +159,50 @@ nav {
 .wrap0 {
   display: flex;
   justify-content: center;
+}
+
+.right-skill {
+  width: 500px;
+  text-align: start;
+}
+
+.hero-skill {
+  padding-top: 15px;
+}
+
+.hero-skill span {
+  justify-content: start;
+  text-align: start;
+  padding-bottom: 5px;
+}
+
+.container-skill {
+  height: 20px;
+  border: 1px solid #232236;
+  background-color: var(--primaryBackground);
+  border-radius: 20px;
+}
+
+.html {
+  width: 70%;
+}
+
+.js {
+  width: 30%;
+}
+
+.css {
+  width: 50%;
+}
+
+.php {
+  width: 40%;
+}
+
+.bootstrap {
+  width: 50%;
+}
+
+.tailwind {
+  width: 60%;
 }
